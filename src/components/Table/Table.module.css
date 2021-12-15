@@ -1,0 +1,53 @@
+.table{
+    background-color: #116466;
+}
+.table caption{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 10px auto 15px;
+}
+.thead{
+    background-color: #d9b08c;
+}
+.tbody{
+    background-color: #ffcb9a;
+}
+.table td{
+    padding: 6px 10px;
+    font-size: 16px;
+}
+.tableItem{
+    font-size: 20px;
+    font-weight: 500;
+}
+.tableItem.name{
+    cursor: pointer;
+}
+.itemName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 6px;
+}
+.triangles{
+    width: 10px;
+    margin: 10px 0 0 10px;
+}
+.triangle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    color: #505050c0;
+    font-size: 11px;
+    margin: -6px 0 0;
+}
+.triangle.triangleUp{
+    transform: rotate(180deg);
+    margin-top: -8px;
+}
+.acive.triangleUp,
+.acive.triangleDown{
+    color: #116466;
+}

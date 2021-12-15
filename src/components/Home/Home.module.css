@@ -1,0 +1,14 @@
+.homePage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+}
+.greeting{
+    text-align: center;
+    color: #2c3531;
+}
+.homeImg{
+    margin: 30px 0 50px;
+}
